@@ -1,0 +1,111 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("sansation_light.woff");
+ }
+ 
+ @font-face {
+    font-family: myFirstFont;
+    src: url("sansation_bold.woff");
+    font-weight: bold;
+    color: white;
+ }
+ 
+ * {
+    font-family: myFirstFont;
+ }
+
+img {
+    display: flex;
+    margin: 0px;
+}
+
+
+.right_side {
+    align-content: flex-end;
+}
+
+body {
+    display: initial;
+    background-image: url("http://i.imgur.com/k9RynUE.png");
+    color: white;
+    
+    
+}
+myUL {
+    display: none;
+}
+
+games {
+    border: #4CAF50;
+    margin: 20px;
+}
+
+h1 {
+    color: white;
+    display: flex;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  #myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  #myUL {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee;
+  }
