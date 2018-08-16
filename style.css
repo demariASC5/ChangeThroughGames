@@ -13,11 +13,27 @@
  * {
     font-family: myFirstFont;
  }
-
-img {
-    display: flex;
-    margin: 0px;
+ img {
+     margin: 5px;
+    width: 150px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
 }
+
+img:hover {
+    width: 300px;
+    height: 200px;
+    -webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(360deg);
+}
+
+p {
+    text-align: center;
+}
+
+
 
 
 .right_side {
@@ -25,12 +41,20 @@ img {
 }
 
 body {
-    display: initial;
+    
     background-image: url("http://i.imgur.com/k9RynUE.png");
     color: white;
+
     
     
 }
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 myUL {
     display: none;
 }
@@ -42,8 +66,8 @@ games {
 
 h1 {
     color: white;
-    display: flex;
     
+    text-align: center;
 }
 
 ul {
